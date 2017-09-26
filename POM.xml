@@ -5,6 +5,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.webapp.in</groupId>
   <artifactId>webapp-war</artifactId>
-  <version>1.414</version>
+  <version>3.0.4</version>
   <packaging>war</packaging>
 </project>
