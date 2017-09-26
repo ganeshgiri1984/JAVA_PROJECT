@@ -1,18 +1,12 @@
 <project>
+ <dependency>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.1.0</version>
+  <type>maven-plugin</type>
+  </dependency>
  <modelVersion>4.0.0</modelVersion>
  <groupId>com.myorg</groupId>
  <artifactId>bird</artifactId>
  <version>1.0-SNAPSHOT</version>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>2.3</version>
-        <configuration>
-          <warName>bird.war</warName>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
 </project>
