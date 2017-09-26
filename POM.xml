@@ -7,8 +7,10 @@
   <artifactId>maven-war</artifactId>
   <version>3.0.4</version>
   <packaging>war</packaging>
-	<plugin>
+	<build>
+		<plugin>
   		<artifactId>maven-war-plugin</artifactId>
   		<version>3.0.0</version>
-	</plugin>
+		</plugin>
+	</build>
 </project>
